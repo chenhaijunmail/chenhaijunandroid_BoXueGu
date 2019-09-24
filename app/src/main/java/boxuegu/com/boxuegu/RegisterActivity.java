@@ -46,8 +46,10 @@ public class RegisterActivity extends AppCompatActivity {
         tv_main_titile=(TextView) findViewById(R.id.tv_main_title);
         tv_main_titile.setText("注册");
         tv_back=(TextView) findViewById(R.id.tv_back);
+        rl_title_bar=(RelativeLayout) findViewById(R.id.title_bar);
         rl_title_bar.setBackgroundColor(Color.TRANSPARENT);
         //从activity_register.xml页面布局中获得对应的UI控件
+
         btn_register=(Button) findViewById(R.id.btn_register);
         et_user_name=(EditText) findViewById(R.id.et_user_name);
         et_psw=(EditText) findViewById(R.id.et_psw);
@@ -66,15 +68,15 @@ public class RegisterActivity extends AppCompatActivity {
                 getEditString();
                 if(TextUtils.isEmpty(username)){
                     Toast.makeText(RegisterActivity.this,"请输入用户名",
-                    Toast.LENGTH_SHORT).show();
+                            Toast.LENGTH_SHORT).show();
                     return;
                 }else if(TextUtils.isEmpty(psw)){
                     Toast.makeText(RegisterActivity.this,"请输入密码",
-                    Toast.LENGTH_SHORT).show();
+                            Toast.LENGTH_SHORT).show();
                     return;
                 }else if(TextUtils.isEmpty(pswAgain)){
                     Toast.makeText(RegisterActivity.this,"请再次输入密码",
-                    Toast.LENGTH_SHORT).show();
+                            Toast.LENGTH_SHORT).show();
                     return;
                 }else if (!psw.equals(pswAgain)){
                     Toast.makeText(RegisterActivity.this,"两次密码输入不一致",
@@ -82,11 +84,11 @@ public class RegisterActivity extends AppCompatActivity {
                     return;
                 }else if(isExisUserName(username)){
                     Toast.makeText(RegisterActivity.this,"用户名已存在",
-                    Toast.LENGTH_SHORT).show();
+                            Toast.LENGTH_SHORT).show();
                     return;
                 }else{
                     Toast.makeText(RegisterActivity.this,"注册成功",
-                    Toast.LENGTH_SHORT).show();
+                            Toast.LENGTH_SHORT).show();
                     //把用户名和密码保存到SharedPreferences中
                     saveRegisterInfo(username,psw);
                     //注册成功后把用户名传递到LoginActivity.java中
@@ -94,11 +96,11 @@ public class RegisterActivity extends AppCompatActivity {
                     data.putExtra("userName",username);
                     setResult(RESULT_OK,data);
                     RegisterActivity.this.finish();
-                    return;
                 }
             }
         });
     }
+
     /*
      *获取控件中的字符串
      */

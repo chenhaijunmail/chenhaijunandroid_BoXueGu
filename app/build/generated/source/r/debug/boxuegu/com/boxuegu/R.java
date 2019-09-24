@@ -3191,18 +3191,21 @@ public final class R {
     public static final int time=0x7f07008d;
     public static final int title=0x7f07008e;
     public static final int titleDividerNoCustom=0x7f07008f;
-    public static final int title_template=0x7f070090;
-    public static final int top=0x7f070091;
-    public static final int topPanel=0x7f070092;
-    public static final int tv_back=0x7f070093;
-    public static final int tv_main_title=0x7f070094;
-    public static final int tv_version=0x7f070095;
-    public static final int uniform=0x7f070096;
-    public static final int up=0x7f070097;
-    public static final int useLogo=0x7f070098;
-    public static final int withText=0x7f070099;
-    public static final int wrap=0x7f07009a;
-    public static final int wrap_content=0x7f07009b;
+    public static final int title_bar=0x7f070090;
+    public static final int title_template=0x7f070091;
+    public static final int top=0x7f070092;
+    public static final int topPanel=0x7f070093;
+    public static final int tv_back=0x7f070094;
+    public static final int tv_find_psw=0x7f070095;
+    public static final int tv_main_title=0x7f070096;
+    public static final int tv_register=0x7f070097;
+    public static final int tv_version=0x7f070098;
+    public static final int uniform=0x7f070099;
+    public static final int up=0x7f07009a;
+    public static final int useLogo=0x7f07009b;
+    public static final int withText=0x7f07009c;
+    public static final int wrap=0x7f07009d;
+    public static final int wrap_content=0x7f07009e;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f080000;
