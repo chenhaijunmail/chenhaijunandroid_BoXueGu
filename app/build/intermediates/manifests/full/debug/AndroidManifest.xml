@@ -26,6 +26,7 @@
         </activity>
         <activity android:name="boxuegu.com.boxuegu.RegisterActivity" />
         <activity android:name="boxuegu.com.boxuegu.LoginActivity" />
+        <activity android:name="boxuegu.com.boxuegu.MainActivity" />
     </application>
 
 </manifest>

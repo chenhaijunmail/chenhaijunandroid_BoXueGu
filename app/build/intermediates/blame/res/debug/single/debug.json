@@ -800,6 +800,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\86c45ea1da537ad4259051076b67f88c\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
+        "merged": "D:\\17soft2chenhaijunAndroid\\BoXueGu\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\17soft2chenhaijunAndroid\\BoXueGu\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
         "merged": "D:\\17soft2chenhaijunAndroid\\BoXueGu\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\aea8e7cc2b3c09f5ffbbff4791659d79\\res\\layout-v21\\notification_action_tombstone.xml"
     },
@@ -1630,6 +1634,10 @@
     {
         "merged": "D:\\17soft2chenhaijunAndroid\\BoXueGu\\app\\build\\intermediates\\res\\merged\\debug\\drawable_register_icon_selected.png.flat",
         "source": "D:\\17soft2chenhaijunAndroid\\BoXueGu\\app\\src\\main\\res\\drawable\\register_icon_selected.png"
+    },
+    {
+        "merged": "D:\\17soft2chenhaijunAndroid\\BoXueGu\\app\\build\\intermediates\\res\\merged\\debug\\layout_main_view_myinfo.xml.flat",
+        "source": "D:\\17soft2chenhaijunAndroid\\BoXueGu\\app\\src\\main\\res\\layout\\main_view_myinfo.xml"
     },
     {
         "merged": "D:\\17soft2chenhaijunAndroid\\BoXueGu\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chapter_3_icon.png.flat",
