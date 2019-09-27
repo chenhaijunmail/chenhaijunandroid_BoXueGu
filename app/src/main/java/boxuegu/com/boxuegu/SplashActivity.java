@@ -41,7 +41,7 @@ public class SplashActivity extends AppCompatActivity {
         TimerTask task=new TimerTask() {
             @Override
             public void run() {//超过3秒后执行此代码块
-                Intent intent=new Intent(SplashActivity.this,LoginActivity.class);//新建一个意图对象
+                Intent intent=new Intent(SplashActivity.this,MainActivity.class);//新建一个意图对象
                 startActivity(intent);
                 SplashActivity.this.finish();
             }
