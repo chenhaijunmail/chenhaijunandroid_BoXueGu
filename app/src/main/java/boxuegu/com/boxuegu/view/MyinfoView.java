@@ -112,7 +112,7 @@ public class MyinfoView {
         mCurrentView.setVisibility(View.VISIBLE);
     }
     /**
-     * 从SharedPreferences中读取登陆状态
+     * 从SharedPreferences中读取登陆状态.
      */
     private boolean readLoginStatus(){
         SharedPreferences sp=mContext.getSharedPreferences("loginInfo", Context.MODE_PRIVATE);

@@ -1,6 +1,7 @@
 package boxuegu.com.boxuegu;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
 import android.graphics.Color;
@@ -16,6 +17,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import org.w3c.dom.Text;
+
+import boxuegu.com.boxuegu.view.MyinfoView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -38,6 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      * @param savedInstanceState
      */
 
+    private MyinfoView mMyInfoView;
     private View mCourseBtn;
     private View mExercisesBtn;
     private View mMyInfoBtn;
@@ -211,6 +215,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case 3:
                 //我的界面
+                if(mMyInfoView==null){
+                    mMyInfoView=new MyinfoView(this);
+                    mBodyLayout.addView(mMyInfoView.getView());
+                }else{
+                    mMyInfoView.getView();
+                }
+                mMyInfoView.showView();
                 break;
         }
     }
@@ -253,5 +264,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         editor.putBoolean("isLogin",false);
         editor.putString("loginUserName","");
         editor.commit();
+    }
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data){
+        super.onActivityResult(requestCode,resultCode,data);
+        if(data!=null){
+            //从设置界面或登录界面传递过来的登录状态
+            boolean isLogin=data.getBooleanExtra("isLogin",false);
+            if(isLogin){//登录成功时显示课程界面
+                clearBottomImageState();
+                selectDisplayView(0);
+            }
+            if(mMyInfoView!=null){//登陆成功或退出登录时根据isLogin设置我的界面
+                mMyInfoView.setLoginParams(isLogin);
+            }
+        }
     }
 }

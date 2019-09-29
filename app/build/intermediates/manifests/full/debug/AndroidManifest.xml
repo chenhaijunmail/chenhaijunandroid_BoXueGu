@@ -15,7 +15,6 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.AppCompat.NoActionBar" >
         <activity android:name="boxuegu.com.boxuegu.SplashActivity" >
             <intent-filter>
@@ -27,6 +26,8 @@
         <activity android:name="boxuegu.com.boxuegu.RegisterActivity" />
         <activity android:name="boxuegu.com.boxuegu.LoginActivity" />
         <activity android:name="boxuegu.com.boxuegu.MainActivity" />
+        <activity android:name="boxuegu.com.boxuegu.SettingActivity" />
+        <activity android:name="boxuegu.com.boxuegu.ModifyPswActivity" />
     </application>
 
 </manifest>
