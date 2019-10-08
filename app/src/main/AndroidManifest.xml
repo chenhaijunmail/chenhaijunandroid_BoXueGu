@@ -19,7 +19,8 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".SettingActivity" />
-        <activity android:name=".ModifyPswActivity"></activity>
+        <activity android:name=".ModifyPswActivity" />
+        <activity android:name=".FindPswActity"></activity>
     </application>
 
 </manifest>

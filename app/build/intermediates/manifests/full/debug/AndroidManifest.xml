@@ -28,6 +28,7 @@
         <activity android:name="boxuegu.com.boxuegu.MainActivity" />
         <activity android:name="boxuegu.com.boxuegu.SettingActivity" />
         <activity android:name="boxuegu.com.boxuegu.ModifyPswActivity" />
+        <activity android:name="boxuegu.com.boxuegu.FindPswActity" />
     </application>
 
 </manifest>
