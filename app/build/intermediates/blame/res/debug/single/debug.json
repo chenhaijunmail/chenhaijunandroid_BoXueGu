@@ -1000,6 +1000,10 @@
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\86c45ea1da537ad4259051076b67f88c\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
+        "merged": "D:\\17soft2chenhaijunAndroid\\BoXueGu\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_user_info.xml.flat",
+        "source": "D:\\17soft2chenhaijunAndroid\\BoXueGu\\app\\src\\main\\res\\layout\\activity_user_info.xml"
+    },
+    {
         "merged": "D:\\17soft2chenhaijunAndroid\\BoXueGu\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_spinner.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\86c45ea1da537ad4259051076b67f88c\\res\\color-v23\\abc_tint_spinner.xml"
     },
